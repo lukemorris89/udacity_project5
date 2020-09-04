@@ -23,6 +23,7 @@ public class MainActivityFragment extends Fragment {
 
     ProgressBar progressBar = null;
     public String jokeReturned = null;
+    public boolean test = false;
 
     public MainActivityFragment() {
     }
@@ -59,10 +60,12 @@ public class MainActivityFragment extends Fragment {
     }
 
     public void startJokeActivity() {
-        Context context = getActivity();
-        Intent intent = new Intent(context, JokeActivity.class);
-        intent.putExtra(Jokes.INTENT_KEY_JOKE, jokeReturned);
-        context.startActivity(intent);
-        progressBar.setVisibility(View.GONE);
+        if (!test) {
+            Context context = getActivity();
+            Intent intent = new Intent(context, JokeActivity.class);
+            intent.putExtra(Jokes.INTENT_KEY_JOKE, jokeReturned);
+            context.startActivity(intent);
+            progressBar.setVisibility(View.GONE);
+        }
     }
 }

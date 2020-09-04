@@ -5,6 +5,7 @@ import java.util.Random;
 
 public class Jokes {
 
+    public static final String INTENT_KEY_JOKE = "joke";
     private ArrayList<String> mJokes;
 
     public Jokes() {

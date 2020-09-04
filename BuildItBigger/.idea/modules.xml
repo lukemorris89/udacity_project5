@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuildItBigger.iml" filepath="$PROJECT_DIR$/.idea/modules/BuildItBigger.iml" group="BuildItBigger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidJokeLib/androidJokeLib.iml" filepath="$PROJECT_DIR$/.idea/modules/androidJokeLib/androidJokeLib.iml" group="BuildItBigger/androidJokeLib" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="BuildItBigger/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend/backend.iml" filepath="$PROJECT_DIR$/.idea/modules/backend/backend.iml" group="BuildItBigger/backend" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jokeLib/jokeLib.iml" filepath="$PROJECT_DIR$/.idea/modules/jokeLib/jokeLib.iml" group="BuildItBigger/jokeLib" />

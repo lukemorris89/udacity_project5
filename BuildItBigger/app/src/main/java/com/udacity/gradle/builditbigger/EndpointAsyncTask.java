@@ -12,12 +12,16 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 
 import java.io.IOException;
 
-class EndpointAsyncTask extends AsyncTask<Context, Void, String> {
+class EndpointAsyncTask extends AsyncTask<MainActivityFragment, Void, String> {
     private static MyApi myApiService = null;
     private Context context;
+    private MainActivityFragment mainActivityFragment;
 
     @Override
-    protected String doInBackground(Context... params) {
+    protected String doInBackground(MainActivityFragment... params) {
+        mainActivityFragment = params[0];
+        context = mainActivityFragment.getActivity();
+
         if(myApiService == null) {  // Only do this once
             MyApi.Builder builder = new
                     MyApi.Builder(AndroidHttp.newCompatibleTransport(),
@@ -35,8 +39,6 @@ class EndpointAsyncTask extends AsyncTask<Context, Void, String> {
             // end options for devappserver
             myApiService = builder.build();
         }
-        context = params[0];
-
 
         try {
             return myApiService.tellJoke().execute().getData();
@@ -47,6 +49,7 @@ class EndpointAsyncTask extends AsyncTask<Context, Void, String> {
 
     @Override
     protected void onPostExecute(String result) {
-        Toast.makeText(context, result, Toast.LENGTH_LONG).show();
+        mainActivityFragment.jokeReturned = result;
+        mainActivityFragment.startJokeActivity();
     }
 }

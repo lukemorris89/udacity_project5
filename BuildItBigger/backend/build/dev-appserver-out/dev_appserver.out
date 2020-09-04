@@ -1,21 +1,21 @@
-Sep 04, 2020 9:24:32 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+Sep 04, 2020 9:45:39 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
 INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\lukem\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\lukem\Documents\AndroidStudioProjects\Developer\BuildItBigger\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
-2020-09-04 09:24:32.409:INFO::main: Logging initialized @669ms to org.eclipse.jetty.util.log.StdErrLog
-2020-09-04 09:24:32.494:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
-Sep 04, 2020 8:24:32 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+2020-09-04 09:45:40.125:INFO::main: Logging initialized @652ms to org.eclipse.jetty.util.log.StdErrLog
+2020-09-04 09:45:40.194:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Sep 04, 2020 8:45:40 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
 WARNING: Your working directory, (C:\Users\lukem\Documents\AndroidStudioProjects\Developer\BuildItBigger) is not equal to your 
 web application root (C:\Users\lukem\Documents\AndroidStudioProjects\Developer\BuildItBigger\backend\build\exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-2020-09-04 09:24:32.965:INFO:oejs.Server:main: jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_242-release-1644-b01
-2020-09-04 09:24:33.716:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@3aa078fd{/,file:///C:/Users/lukem/Documents/AndroidStudioProjects/Developer/BuildItBigger/backend/build/exploded-backend/,AVAILABLE}{C:\Users\lukem\Documents\AndroidStudioProjects\Developer\BuildItBigger\backend\build\exploded-backend}
-2020-09-04 09:24:33.716:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
-2020-09-04 09:24:33.716:INFO:oejs.session:main: node0 Scavenging disabled
-2020-09-04 09:24:33.738:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@13a5fe33{HTTP/1.1, (http/1.1)}{localhost:8080}
-2020-09-04 09:24:33.743:INFO:oejs.Server:main: Started @2003ms
-Sep 04, 2020 8:24:33 AM com.google.appengine.tools.development.AbstractModule startup
+2020-09-04 09:45:40.801:INFO:oejs.Server:main: jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_242-release-1644-b01
+2020-09-04 09:45:41.655:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@3aa078fd{/,file:///C:/Users/lukem/Documents/AndroidStudioProjects/Developer/BuildItBigger/backend/build/exploded-backend/,AVAILABLE}{C:\Users\lukem\Documents\AndroidStudioProjects\Developer\BuildItBigger\backend\build\exploded-backend}
+2020-09-04 09:45:41.656:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2020-09-04 09:45:41.656:INFO:oejs.session:main: node0 Scavenging disabled
+2020-09-04 09:45:41.688:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@13a5fe33{HTTP/1.1, (http/1.1)}{localhost:8080}
+2020-09-04 09:45:41.697:INFO:oejs.Server:main: Started @2225ms
+Sep 04, 2020 8:45:41 AM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Sep 04, 2020 8:24:33 AM com.google.appengine.tools.development.AbstractModule startup
+Sep 04, 2020 8:45:41 AM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Sep 04, 2020 9:24:33 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+Sep 04, 2020 9:45:41 AM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running

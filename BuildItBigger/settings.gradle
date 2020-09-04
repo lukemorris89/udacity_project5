@@ -1,1 +1,2 @@
+include ':jokeLib'
 include ':app', ':backend'
